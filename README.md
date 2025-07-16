@@ -9,7 +9,7 @@ Este projeto foi desenvolvido como atividade prática do curso **"Maven: gerenci
 ---
 
 ## 🚀 **Funcionalidades**
-- **Leitura de CSV:** Utiliza a biblioteca [OpenCSV](http://opencsv.sourceforge.net/) para mapear e converter registros do arquivo `.csv` para objetos Java.
+- **Leitura de CSV:** A biblioteca [OpenCSV](http://opencsv.sourceforge.net/) para mapear e converter registros do arquivo `.csv` para objetos Java.
 - **Tradução Automática:** Integração com a API [LibreTranslate](https://libretranslate.com/) para traduzir automaticamente nome, descrição e categoria dos produtos para outro idioma.
 - **Uso de Lombok:** Reduz boilerplate com geração automática de getters, setters e construtores.
 
@@ -25,6 +25,7 @@ Este projeto foi desenvolvido como atividade prática do curso **"Maven: gerenci
 ---
 
 📄 **Arquivo CSV de exemplo:** `src/main/resources/products.csv`
+
 Saída no console
 
 Produto(id=223, name=Laptop, description=Powerful laptop for all your computing needs, price=1200, category=Electronics)
