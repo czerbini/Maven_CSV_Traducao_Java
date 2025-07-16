@@ -26,11 +26,11 @@ Este projeto foi desenvolvido como atividade prática do curso **"Maven: gerenci
 
 ## 📂 **Estrutura do Projeto**
 src/main/java/
-─ model/
-   ─ Produto.java # Classe mapeada com anotações do OpenCSV
-- service/
-   - TraduzProdutoService.java # Serviço para tradução
-- Main.java # Classe principal para execução
+├── model/
+│ └── Produto.java # Classe mapeada com anotações do OpenCSV
+├── service/
+│ └── TraduzProdutoService.java # Serviço para tradução
+└── Main.java # Classe principal para execução
 
 📄 **Arquivo CSV de exemplo:** `src/main/resources/products.csv`
 Entrada
