@@ -1,15 +1,15 @@
 package model;
 
 import com.opencsv.bean.CsvBindByName;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 import java.math.BigDecimal;
 
 @Getter
 @Setter
 @ToString
+@AllArgsConstructor
+@NoArgsConstructor
 public class Produto {
     @CsvBindByName(column = "ProductId", required = true)
     private int id;
