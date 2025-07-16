@@ -1,6 +1,6 @@
-# 📦 Maven CSV + Tradução de Produtos
+# 📦 CSV + Tradução de Produtos
 
-Este projeto foi desenvolvido como parte do curso **"Maven: gerencie dependências de aplicações Java"** da Alura. E demonstra como:
+Este projeto foi desenvolvido como atividade prática do curso **"Maven: gerencie dependências de aplicações Java"** da Alura. E demonstra como:
 
 - ✅ **Ler dados de um arquivo CSV**
 - ✅ **Traduzir textos de campos usando a API LibreTranslate**
@@ -26,11 +26,11 @@ Este projeto foi desenvolvido como parte do curso **"Maven: gerencie dependênci
 
 ## 📂 **Estrutura do Projeto**
 src/main/java/
-├── model/
-│ └── Produto.java # Classe mapeada com anotações do OpenCSV
-├── service/
-│ └── TraduzProdutoService.java # Serviço para tradução
-└── Main.java # Classe principal para execução
+─ model/
+   ─ Produto.java # Classe mapeada com anotações do OpenCSV
+- service/
+   - TraduzProdutoService.java # Serviço para tradução
+- Main.java # Classe principal para execução
 
 📄 **Arquivo CSV de exemplo:** `src/main/resources/products.csv`
 Entrada
